@@ -1,0 +1,19 @@
+# SELinux policy build artifacts (see Makefile's clean target)
+*.tc
+*.pp
+*.pp.bz2
+tmp/
+*.tar.gz
+
+# Editor
+.idea/
+.vscode/
+*.swp
+*~
+.DS_Store
+
+# rh-multi-pre-commit venv
+.venv/
+
+# claude
+CLAUDE.md
